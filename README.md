@@ -8,7 +8,8 @@ To use, clone the repo and run `ruby ./bin/run.rb` in the console. The program w
 
 Sample output:
 
-```Welcome to the Two-Envelope Paradox!
+```
+Welcome to the Two-Envelope Paradox!
 Enter the amount of iterations: 5000
 
 
@@ -16,4 +17,5 @@ Totals after 5000 iterations:
 ==============================
 Always first envelope: 		$3710447
 Always second envelope: 	$3831776
-Using Tom Cover's method: 	$3873166	GOT THE MOST```
+Using Tom Cover's method: 	$3873166	GOT THE MOST
+```
