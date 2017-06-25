@@ -35,19 +35,11 @@ class Picker
   end
 
   def compare_all
-    results = [always_one(0), always_one(1), cover_method]
-
     puts "\nTotals after #{@iterations} iterations:"
     puts "=============================="
-    print "Always first envelope: \t\t$#{results[0]}"
-    print "\tGOT THE MOST" if results.max == results[0]
-    puts
-    print "Always second envelope: \t$#{results[1]}"
-    print "\tGOT THE MOST" if results.max == results[1]
-    puts
-    print "Using Tom Cover's method: \t$#{results[2]}"
-    print "\tGOT THE MOST" if results.max == results[2]
-    puts
+    puts "Always first envelope: \t\t$#{always_one(0)}"
+    puts "Always second envelope: \t$#{always_one(1)}"
+    puts "Using Tom Cover's method: \t$#{cover_method}"
   end
 
 end
