@@ -20,7 +20,7 @@ class Picker
       # idx = rand(0..1) # pick envelopes randomly?
       pair = EnvelopePair.new.pair
       # pick amount we're ok with
-      ok_amount = rand(10..500)
+      ok_amount = rand(10..1000)
       # proceed if we're ok with the amount in envelope
       if pair[0].amount >= ok_amount
         total += pair[0].amount
