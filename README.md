@@ -10,7 +10,7 @@ Sample output:
 
 ```
 Welcome to the Two-Envelope Paradox!
-Enter the amount of iterations: 5000
+Enter the amount of iterations: 1000000
 
 
 Totals after 1000000 iterations:
